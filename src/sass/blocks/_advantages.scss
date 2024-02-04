@@ -1,0 +1,29 @@
+.advantages {
+    padding: 73px 0 63px 0;
+    background-color: #F6F6F6;
+
+    &__wrap {
+        margin-top: 65px;
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+    }
+    &__item {
+        max-width: 277px;
+    }
+    &__subtitle {
+        margin-top: 30px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__text {
+        margin-top: 20px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 18px;
+        &_link {
+            color: #F00;
+            font-family: MuseoModerno;
+        }
+    }
+}
